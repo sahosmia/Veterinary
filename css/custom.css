@@ -1,0 +1,136 @@
+:root{
+  --main_color : #FFC400;
+  --main_color_fade : rgba(255, 196, 0, 0.719);;
+  --second_color : #00BFCC;
+  --white:#fff;
+  --black:#000;
+}
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  outline: 0;
+  transition: all linear 0.3s;
+}
+html {
+  font-size: 10px;
+}
+body {
+  font-family: 'Poppins', sans-serif;;
+  position: relative;
+}
+
+ul {
+  display: flex;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+li {
+  list-style-type: none;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+  color: #000;
+}
+p {
+	margin-bottom: 0rem;
+}
+
+/* class  */
+.bg_main_color{
+  background: var(--main_color);
+}
+.main_color{
+  color: var(--main_color);
+}
+
+.bg_second_color{
+  background: var(--second_color);
+}
+.second_color{
+  color: var(--second_color);
+}
+
+.white_color{
+  color: var(--white);
+}
+
+.black_color{
+  color: var(--black);
+}
+
+.section{
+    padding: 100px 0 60px;
+}
+.section_content {
+	padding-bottom: 100px;
+}
+
+.section_content_center{
+  text-align: center;
+  margin: 0 auto;
+}
+
+.section_title {
+	font-size: 60px;
+	padding-bottom: 20px;
+	font-weight: 700;
+}
+.section_p {
+	font-size: 17px;
+}
+
+.item_p{
+  padding-bottom: 20px;
+}
+
+
+
+
+
+
+/* btn  */
+.main_btn, .second_btn, .white_btn{
+	font-size: 16px;
+	border-radius: 5px;
+	margin-right: 10px;
+}
+.main_btn{
+  background: var(--main_color);
+  color: var(--white);
+  padding: 15px 30px;
+
+}
+.second_btn {
+	color: var(--white);
+	background: var(--second_color);
+	padding: 15px 30px;
+	
+}
+.white_btn {
+	color: var(--white);
+	border: 2px solid #fff;
+	padding: 13px 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
